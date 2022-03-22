@@ -1,0 +1,48 @@
+.parallax-rainbow {
+    width: 100%;
+    margin-top: 300px;
+    aspect-ratio: 40/14;
+    position: relative;
+
+    .parallax-rainbow__background {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        filter: blur(4px);
+        opacity: 0.9;
+        z-index: -1;
+        object-fit: contain;
+    }
+
+    .parallax-rainbow__sliding-bear {
+        position: absolute;
+        display: block;
+        width: 12%;
+        opacity: 0;
+    }
+
+    .parallax-rainbow__hanging-bear {
+        position: absolute;
+        display: block;
+        width: 6.4%;
+        opacity: 0;
+    }
+
+    .parallax-rainbow__sun {
+        position: absolute;
+        display: block;
+        width: 20%;
+        opacity: 0;
+    }
+
+    .parallax-rainbow__castle {
+        position: absolute;
+        display: block;
+        width: 25%;
+        opacity: 0;
+    }
+}
